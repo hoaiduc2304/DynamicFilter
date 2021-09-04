@@ -15,54 +15,6 @@ Conductor is a stand-alone framework to work with MSSQL for paging,sorting and f
 
 See [Tutorial here.](https://github.com/hoaiduc2304/DynamicFilter)
 
-
-```
-## JSON  Definitions
-
-Define your workflows in JSON or YAML, need to install WorkFlowCore.DSL
-
-```json
-{
-  "page": 1,
-  "pageSize": 10,
-  "filter": [
-    {
-     "field": "Code",
-		"operator": "contains",
-		"value": "Employee",
-		"logic": "Or"
-    },
-	{
-     "field": "parentId",
-		"operator": "eq",
-		"value": "2",
-		"logic": "AND"
-    },
-  ],
-  "sorts": [
-    {
-      "field": "Code",
-      "dir": "desc"
-    }
-  ]
-
-}
-```
-operator:
-```c#
-    {"eq", "="},
-    {"neq", "!="},
-    {"lt", "<"},
-    {"lte", "<="},
-    {"gt", ">"},
-    {"gte", ">="},
-    {"startswith", "StartsWith"},
-    {"endswith", "EndsWith"},
-    {"contains", "Contains"},
-    {"doesnotcontain", "DoesNotContain"}
-```
-
-
 ## Filtering in 5 mins 
 ### Create new Table 
 
@@ -153,6 +105,51 @@ CREATE TABLE [dbo].[SiteMap](
             return Ok(result);
         }
     }
+```
+```
+## JSON  Definitions
+
+Define your workflows in JSON or YAML, need to install WorkFlowCore.DSL
+
+```json
+{
+  "page": 1,
+  "pageSize": 10,
+  "filter": [
+    {
+     "field": "Code",
+		"operator": "contains",
+		"value": "Employee",
+		"logic": "Or"
+    },
+	{
+     "field": "parentId",
+		"operator": "eq",
+		"value": "2",
+		"logic": "AND"
+    },
+  ],
+  "sorts": [
+    {
+      "field": "Code",
+      "dir": "desc"
+    }
+  ]
+
+}
+```
+operator:
+```c#
+    {"eq", "="},
+    {"neq", "!="},
+    {"lt", "<"},
+    {"lte", "<="},
+    {"gt", ">"},
+    {"gte", ">="},
+    {"startswith", "StartsWith"},
+    {"endswith", "EndsWith"},
+    {"contains", "Contains"},
+    {"doesnotcontain", "DoesNotContain"}
 ```
 
 Just 5 mins , we can pagging , filtering and sorting. Wish this example help us to reduce the time to develop common function.
