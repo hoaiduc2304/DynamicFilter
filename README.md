@@ -119,8 +119,9 @@ operator:
 ```
 
 <kbd>
-<img src="~/images/swagger1.jpg" alt="Dynamic Filter" />
+<img src="https://github.com/hoaiduc2304/DynamicFilter/blob/main/Images/swagger1.jpg" alt="Dynamic Filter" />
 </kbd>
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
