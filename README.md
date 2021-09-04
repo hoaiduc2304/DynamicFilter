@@ -118,6 +118,9 @@ operator:
     {"doesnotcontain", "DoesNotContain"}
 ```
 
+<kbd>
+<img src="~/images/swagger1.jpg" alt="Dynamic Filter" />
+</kbd>
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
