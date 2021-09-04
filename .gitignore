@@ -3,3 +3,5 @@
 ################################################################################
 
 /obj/Debug/netcoreapp3.1
+/.vs/DynamicFilter/DesignTimeBuild/.dtbcache.v2
+/bin/Debug/netcoreapp3.1
