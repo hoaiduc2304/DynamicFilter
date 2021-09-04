@@ -37,7 +37,7 @@ CREATE TABLE [dbo].[SiteMap](
 
 #### Add Entity Model 
 
-```c#
+```csharp
  public class SYSitemap 
     {
         public int SitemapId { get; set; }
