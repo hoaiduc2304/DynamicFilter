@@ -13,7 +13,7 @@ Conductor is a stand-alone framework to work with MSSQL for paging,sorting and f
 
 ## Documentation
 
-See [Tutorial here.](https://github.com/hoaiduc2304/DynamicFilter)
+See [Demo.](http://dynamic-demo.azurewebsites.net/swagger/index.html)
 
 ## Filtering in 5 mins 
 ### Create new Table 
