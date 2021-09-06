@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/xnby6p5v4ur04u76?svg=true)](https://ci.appveyor.com/project/danielgerlag/workflow-core)
 
-Dynamic Filter is a light weight embeddable workflow engine targeting .NET Standard.
+Dynamic Filter is a light weight function targeting .NET Standard.
 
 ### Announcements
 
