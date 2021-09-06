@@ -100,8 +100,8 @@ CREATE TABLE [dbo].[SiteMap](
         public virtual IActionResult Paging([FromBody] FilterRequest request)
         {
         
-            SiteMapServices employeeServices = new SiteMapServices(_dbContext);
-            var result = employeeServices.Entities.Getpaging(request);
+            SiteMapServices siteMapServices = new SiteMapServices(_dbContext);
+            var result = siteMapServices.Entities.Getpaging(request);
             return Ok(result);
         }
     }
