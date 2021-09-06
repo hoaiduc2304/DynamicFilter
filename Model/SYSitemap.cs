@@ -26,7 +26,6 @@ namespace DynamicFilter
         {
             builder.ToTable("SiteMap");
             builder.HasKey(x => new { x.SitemapId});
-            //builder.HasKey(x => x.CompanyId);
             base.Configure(builder);
         }
     }
